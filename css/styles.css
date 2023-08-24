@@ -214,6 +214,7 @@ img {
     justify-content: space-between;
     row-gap: 48px;
     column-gap: 24px;
+    margin: 0;
     padding-left: 0;
     text-align: start;
 }
