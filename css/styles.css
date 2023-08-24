@@ -29,7 +29,6 @@ img {
 }
 .navigation {
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 40px;
     padding: 24px 0;
@@ -37,14 +36,14 @@ img {
 }
 .navigation-item {
     display: flex;
-    width: 261px;
     justify-content: space-between;
     gap: 40px;
    
 }
-.address-item {
+.address-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .logo {
@@ -57,7 +56,9 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;} .studio-logo {color: #2E2F42;}
 
-.navigation-link {color: #2E2F42;
+.navigation-link {
+    padding: 24px 0;
+    color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -65,7 +66,9 @@ img {
     .navigation-link:focus, .navigation-link:hover {color: #404BBF;}
 
 
-.address-link {color: #434455;
+.address-link {
+    align-items: center;
+    color: #434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;}
