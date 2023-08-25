@@ -2,8 +2,14 @@ body {font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFF;}
 a {text-decoration: none;}
-ul {list-style: none;}
-h1, h2, h3, h4, h5, h6 {
+ul {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;}
+    
+
+h1, h2, h3, h4, h5, h6, p {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -16,34 +22,31 @@ img {
 
     /* Header */
 .header {
+    padding-top: 24px;
+    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 .container {
-    margin: 0 auto;
-    max-width: 1158px;
-    padding: 0 15px;
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .top-line {
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 .navigation {
     display: flex;
     align-items: center;
-    gap: 40px;
-    padding: 24px 0;
-    
 }
-.navigation-item {
+.menu {
     display: flex;
-    justify-content: space-between;
-    gap: 40px;
+    column-gap: 40px;
+    justify-content: space-between
    
-}
-.address-list {
-    display: flex;
-    gap: 40px;
-    padding: 24px 0;
 }
 
 .logo {
@@ -57,7 +60,6 @@ img {
     text-transform: uppercase;} .studio-logo {color: #2E2F42;}
 
 .navigation-link {
-    padding: 24px 0;
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
@@ -65,7 +67,15 @@ img {
     letter-spacing: 0.02em;}
     .navigation-link:focus, .navigation-link:hover {color: #404BBF;}
 
+.address {
+    font-style: normal;
+    font-weight: 400;
 
+.address-list {
+    display: flex;
+    column-gap: 40px;
+}
+}
 .address-link {
     align-items: center;
     color: #434455;
@@ -78,8 +88,8 @@ img {
 .hero-section {
     display: block;
     background-color: #2E2F42;
-    padding: 188px 0;
-
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title {color: #FFF;
@@ -87,12 +97,10 @@ img {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    max-width: 496px;
-    max-height: 120px;
+    width: 496px;
     margin-bottom: 48px;
     margin-left: auto;
     margin-right: auto;
-   
 }
 
 .hero-button {
@@ -104,8 +112,8 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    min-width: 169px;
-    min-height: 56px;
+    width: 169px;
+    height: 56px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -128,16 +136,17 @@ img {
     overflow: hidden;
 }
 .features {
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .features-list {
     display: flex;
     justify-content: space-between;
-    gap: 24px;
+    column-gap: 24px;
     padding: 0;}
 
 .features-item {
-    width: calc((100% - 3*24px)/4);
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .features-title {
@@ -171,16 +180,15 @@ img {
 .team-list {
     display: flex;
     justify-content: space-between;
-    gap: 24px;
-    background-color: #FFFFFF;
-    padding-left: 0;
+    column-gap: 24px;
 }
 .team-item {
-    flex-basis: calc((100% - 3*24px)/4);
+    width: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 .card {
-    padding: 32px 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .name {
     text-align: center;
@@ -196,7 +204,8 @@ img {
 
     /* Section 4 */
 .portfolio {
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
     background-color: #FFFFFF;}
 .portfolio-title {
     margin-bottom: 72px;
@@ -213,8 +222,6 @@ img {
     justify-content: space-between;
     row-gap: 48px;
     column-gap: 24px;
-    margin: 0;
-    padding-left: 0;
     text-align: start;
 }
 .portfolio-item {
@@ -233,14 +240,13 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-top: 32px;
     margin-bottom: 8px;
 }
 
 /* Footer */
 .footer-section {
-    padding: 100px 0;
-    height: 312px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background: #2E2F42;}
 .footer-logo {
     margin-bottom: 16px;
