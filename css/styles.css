@@ -28,20 +28,20 @@ img {
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 15px;
 }
 .top-line {
     display: flex;
-    padding: 24px 0;
     align-items: center;
     justify-content: space-between;
 }
 .navigation {
     display: flex;
     align-items: center;
+    padding: 0 15px;
 }
 .menu {
     display: flex;
+    padding: 24px 0;
     gap: 40px;
     justify-content: space-between
 }
