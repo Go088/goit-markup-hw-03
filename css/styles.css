@@ -37,7 +37,6 @@ img {
 .navigation {
     display: flex;
     align-items: center;
-    padding: 0 15px;
 }
 .menu {
     display: flex;
