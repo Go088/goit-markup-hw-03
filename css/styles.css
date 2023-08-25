@@ -41,17 +41,18 @@ img {
 .navigation {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 .menu {
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
     gap: 40px;
     justify-content: space-between
-   
 }
 
 .logo {
+    padding-top: 24px;
+    padding-bottom: 24px;
     margin-right: 76px;
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
@@ -70,6 +71,8 @@ img {
     .navigation-link:focus, .navigation-link:hover {color: #404BBF;}
 
 .address {
+    padding-top: 24px;
+    padding-bottom: 24px;
     font-style: normal;
     font-weight: 400;
 
@@ -114,7 +117,7 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    max-width: 169px;
+    min-width: ;-width: 169px;
     height: 56px;
     border: none;
     border-radius: 4px;
