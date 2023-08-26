@@ -85,7 +85,6 @@ img {
     
     /* Hero section */
 .hero-section {
-    display: block;
     background-color: #2E2F42;
     padding-top: 188px;
     padding-bottom: 188px;
@@ -182,6 +181,7 @@ img {
     gap: 24px;
 }
 .team-item {
+    background-color: #FFFFFF;
     width: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
